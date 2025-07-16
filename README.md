@@ -1,12 +1,39 @@
-# React + Vite
+# Team Form UI
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a React application built with **Vite**, **TailwindCSS**, **RizzUI**, **React Hook Form**, and **Zod**.  
+It allows adding team members via a modal form with proper validation.
 
-Currently, two official plugins are available:
+## Tech Stack
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- React.js (Vite)
+- TailwindCSS
+- RizzUI
+- React Hook Form
+- Zod
 
-## Expanding the ESLint configuration
+## How to Run
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+1. Clone the repo  
+   `git clone https://github.com/Vishnu-raghav/team-form-ui`
+2. Go to project folder  
+   `cd vite-project`
+3. Install dependencies  
+   `npm install`
+4. Start development server  
+   `npm run dev`
+
+## Features
+
+- Modal triggered by "Add Team" button
+- Multi-select for Roles and Warehouses
+- Dynamic Email inputs (add/remove)
+- Zod validation for:
+  - Required fields
+  - Email format
+  - Multi-select selections
+- Clean and responsive UI using RizzUI and Tailwind
+
+## Author
+
+**Vishnu Raghav**  
+[GitHub](https://github.com/Vishnu-raghav)
